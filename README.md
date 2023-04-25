@@ -26,7 +26,7 @@ Projeto realizado com o objetivo de criar um calculador de idade, onde o usuári
 ## 🖱️ A página
 <img src="src/gif/gif.gif" alt="Gif exibindo o desktop e versão mobile do site">    
 
-> <a href="https://validacao-de-formulario-zeta.vercel.app/" target= "_blank">Acesse a página online</a>  
+> <a href="https://calculador-de-idade.vercel.app/" target= "_blank">Acesse a página online</a>  
 
 
 ## 👩‍💻 Dev
