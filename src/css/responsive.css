@@ -1,0 +1,24 @@
+@media (max-width: 568px) {
+  main {
+    max-width: 500px;
+    padding: 3rem;
+  }
+
+  main .form .form-content .form-date input {
+    max-width: 9rem;
+    padding-left: 1rem;
+  }
+
+  main .form .btn {
+    margin: 7rem 0;
+  }
+
+  main .form .btn button {
+    position: absolute;
+    left: 40%;
+  }
+
+  main .res p {
+    font-size: 5.7rem;
+  }
+}

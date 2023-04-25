@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="shortcut icon"
+      href="src/img/favicon-32x32.png"
+      type="image/x-icon"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,700;1,400;1,800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="src/css/reset.css" />
+    <link rel="stylesheet" href="src/css/variables.css" />
+    <link rel="stylesheet" href="src/css/style.css" />
+    <link rel="stylesheet" href="src/css/responsive.css" />
+    <title>Cauculadora de Idade</title>
+  </head>
+  <body>
+    <main>
+      <div class="form">
+        <section class="form-content">
+          <div class="form-date">
+            <label for="dia">DAY</label>
+            <input type="number" id="dia" placeholder="DD" />
+            <p></p>
+          </div>
+
+          <div class="form-date">
+            <label for="mes">MONTH</label>
+            <input type="number" id="mes" placeholder="MM" />
+            <p></p>
+          </div>
+
+          <div class="form-date">
+            <label for="ano">YEAR</label>
+            <input type="number" id="ano" placeholder="YYYY" />
+            <p></p>
+          </div>
+        </section>
+
+        <section class="btn">
+          <hr />
+
+          <button id="btn-calcular">
+            <img src="src/img/icon-arrow.svg" alt="Botão de clacular" />
+          </button>
+        </section>
+      </div>
+
+      <section class="res">
+        <p><span id="qtd-anos">--</span> years</p>
+        <p><span id="qtd-meses">--</span> months</p>
+        <p><span id="qtd-dias">--</span> days</p>
+      </section>
+    </main>
+
+    <script src="src/js/index.js"></script>
+  </body>
+</html>
